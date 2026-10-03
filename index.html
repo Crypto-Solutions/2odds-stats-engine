@@ -1,48 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2Odds by Stats</title>
+    <title>2Odds by Stats | Professional Sports Analytics</title>
+    <!-- Premium Geometric Font Stack Integration -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
     <script src="https://tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        display: ['Space Grotesk', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
     <style>
-        body { background-color: #0d1117 !important; color: #ffffff !important; font-family: sans-serif; }
-        .card { background-color: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 16px; margin-bottom: 16px; }
-        .badge { background-color: #1f6feb; color: white; padding: 2px 8px; id-radius: 20px; font-size: 11px; font-weight: bold; }
-        .btn-copy { background-color: #238636; color: white; border: none; padding: 8px 16px; border-radius: 6px; font-weight: bold; cursor: pointer; }
+        body { background-color: #030712; font-family: 'Plus Jakarta Sans', sans-serif; }
+        .glass-panel { background: rgba(17, 24, 39, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.06); }
+        .glow-blue { box-shadow: 0 0 20px -3px rgba(59, 130, 246, 0.25); }
     </style>
 </head>
-<body style="padding: 20px; max-w: 480px; margin: 0 auto;">
+<body class="text-slate-100 flex flex-col items-center min-h-screen px-4 py-8 md:py-12 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-900 via-gray-950 to-black">
 
-    <!-- Brand Header -->
-    <div style="text-align: center; margin-top: 20px; margin-bottom: 30px;">
-        <h1 style="font-size: 28px; font-weight: 900; margin: 0; color: #58a6ff;">⚽ 2ODDS BY STATS</h1>
-        <p style="font-size: 12px; color: #8b949e; margin-top: 5px; text-transform: uppercase; letter-spacing: 1px;">Algorithmic Vetted Selections</p>
-    </div>
+    <div class="w-full max-w-md flex flex-col items-center">
+        <!-- Sophisticated Brand Header -->
+        <header class="w-full text-center mb-10 mt-2">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-[10px] font-bold uppercase tracking-widest mb-4">
+                <span class="flex h-1.5 w-1.5 rounded-full bg-blue-500 animate-pulse"></span> Engine Active • 2026 Grid
+            </div>
+            <h1 class="text-4xl font-extrabold tracking-tight text-white font-display">
+                2ODDS<span class="text-blue-500 font-medium">BY</span>STATS
+            </h1>
+            <p class="text-xs text-slate-500 mt-2 font-medium tracking-widest uppercase">QUANTITATIVE FOOTBALL FORECAST MATRIX</p>
+        </header>
 
-    <!-- Main Slip Box -->
-    <div class="card" style="border-top: 4px solid #238636;">
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
-            <span style="color: #58a6ff; font-weight: bold; font-size: 13px;">🔥 TODAY'S MAIN SLIP</span>
-            <span id="slip-date" style="font-size: 12px; color: #c9d1d9; font-weight: bold;">LOADING...</span>
-        </div>
-        
-        <p style="font-size: 11px; color: #8b949e; text-transform: uppercase; margin-bottom: 5px; font-weight: bold;">SportyBet Booking Code</p>
-        <div style="display: flex; justify-content: space-between; align-items: center; background: #0d1117; padding: 10px; border-radius: 8px; border: 1px solid #30363d;">
-            <span id="booking-code" style="font-family: monospace; font-size: 20px; font-weight: 900; color: #ffd60a;">-------</span>
-            <button onclick="copyCode()" id="copy-btn" class="btn-copy">Copy Code</button>
-        </div>
+        <!-- Top Premium Safe Panel Component -->
+        <section class="w-full glass-panel glow-blue rounded-3xl p-6 relative overflow-hidden mb-10">
+            <!-- Sleek Accent Line -->
+            <div class="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-blue-500 via-indigo-500 to-emerald-500"></div>
+            
+            <div class="flex justify-between items-center mb-5 border-b border-slate-800 pb-4">
+                <div>
+                    <h2 class="text-xs font-bold uppercase tracking-widest text-slate-400">ALGORITHMIC ALPHA SLIP</h2>
+                    <p class="text-[10px] text-blue-400 font-semibold mt-0.5">High Liquidity Minor Leagues Only</p>
+                </div>
+                <span id="slip-date" class="text-[10px] text-slate-300 font-bold font-display bg-slate-900 border border-slate-800 px-3 py-1.5 rounded-xl uppercase tracking-wider">LOADING...</span>
+            </div>
 
-        <div style="display: flex; justify-content: space-between; font-size: 13px; margin-top: 15px; background: #21262d; padding: 10px; border-radius: 8px; color: #c9d1d9;">
-            <span>Combined Slip Odds:</span>
-            <span id="combined-odds" style="color: #58a6ff; font-weight: bold;">...</span>
-        </div>
-    </div>
+            <!-- Dynamic Safe Match Cards Injection Target -->
+            <div id="safe-legs-container" class="space-y-3">
+                <div class="text-center py-6 text-xs text-slate-500 font-medium animate-pulse">Processing predictive vector arrays...</div>
+            </div>
 
-    <!-- Vetted Feed -->
-    <h2 style="font-size: 14px; text-transform: uppercase; color: #8b949e; margin-top: 30px; margin-bottom: 15px; letter-spacing: 0.5px;">📋 Daily Fixtures Feed</h2>
-    <div id="fixtures-container">
-        <p style="font-size: 13px; color: #8b949e; text-align: center; padding: 20px;">Connecting to data stream...</p>
+            <!-- Total Multiplier Banner -->
+            <div class="mt-6 flex justify-between items-center bg-slate-950/80 border border-slate-800/80 p-4 rounded-2xl">
+                <span class="text-xs text-slate-400 font-semibold tracking-wide">COMPUTED MULTIPLIER</span>
+                <div class="flex items-baseline gap-1">
+                    <span id="combined-odds" class="text-2xl font-bold font-display text-emerald-400">...</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lower 30-Fixtures Feed Dashboard Feed -->
+        <main class="w-full">
+            <div class="flex justify-between items-center mb-5 px-1">
+                <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 flex items-center gap-2">
+                    <svg class="w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    GLOBAL PROBABILITY STREAM
+                </h3>
+                <span class="text-[10px] font-bold text-slate-500 tracking-wider">30 FIXTURES LOCKED</span>
+            </div>
+
+            <div id="fixtures-container" class="space-y-3.5">
+                <p class="text-xs text-slate-600 text-center py-8 font-medium animate-pulse">Synchronizing database nodes...</p>
+            </div>
+        </main>
+
+        <!-- Minimal Sophisticated Footer -->
+        <footer class="mt-12 mb-6 text-center">
+            <p class="text-[9px] text-slate-600 font-bold uppercase tracking-widest">© 2ODDS BY STATS • ALL RIGHTS RESERVED</p>
+        </footer>
     </div>
 
     <script>
@@ -54,44 +98,47 @@
                 const data = await res.json();
                 
                 document.getElementById('slip-date').innerText = data.date;
-                document.getElementById('booking-code').innerText = data.main_booking_code;
                 document.getElementById('combined-odds').innerText = data.combined_odds;
                 
-                const container = document.getElementById('fixtures-container');
-                container.innerHTML = ""; 
-                
-                data.fixtures.forEach(match => {
-                    const row = `
-                        <div class="card">
-                            <div style="display: flex; justify-content: space-between; font-size: 11px; margin-bottom: 8px; font-weight: bold;">
-                                <span style="color: #8b949e;">${match.league}</span>
-                                <span style="color: #58a6ff;">🟢 ${match.win_chance} Win Chance</span>
+                // 📊 Render Top Alpha Double Slip
+                const safeContainer = document.getElementById('safe-legs-container');
+                safeContainer.innerHTML = "";
+                data.safe_fixtures.forEach(match => {
+                    safeContainer.innerHTML += `
+                        <div class="bg-slate-900/60 border border-slate-800/50 p-4 rounded-2xl flex flex-col gap-2 transition-all hover:border-slate-700/80">
+                            <div class="flex justify-between items-center text-[9px] font-bold tracking-wider">
+                                <span class="text-slate-500 uppercase">${match.league}</span>
+                                <span class="text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-md border border-emerald-500/20">${match.win_chance} CONFIDENCE</span>
                             </div>
-                            <h3 style="font-size: 16px; font-weight: bold; margin: 5px 0; color: #ffffff;">${match.match_name}</h3>
-                            <div style="display: flex; justify-content: space-between; font-size: 13px; border-top: 1px solid #30363d; pt-2; margin-top: 8px; padding-top: 8px; color: #c9d1d9;">
-                                <span>Market: <strong style="color: #58a6ff;">${match.market}</strong></span>
-                                <span>Odds: <strong style="color: #ffd60a;">${match.odds}</strong></span>
+                            <div class="text-sm font-bold text-slate-100 tracking-tight">${match.match_name}</div>
+                            <div class="flex justify-between items-center text-xs mt-1 border-t border-slate-800/40 pt-2 text-slate-400">
+                                <span>Market: <strong class="text-blue-400 font-semibold">${match.market}</strong></span>
+                                <span class="text-[11px] bg-slate-950 px-2.5 py-1 rounded-lg border border-slate-800 text-amber-400 font-bold font-display">${match.odds}</span>
                             </div>
                         </div>
                     `;
-                    container.innerHTML += row;
+                });
+                
+                // 📊 Render Lower 30-Fixtures Scroll Feed
+                const container = document.getElementById('fixtures-container');
+                container.innerHTML = ""; 
+                data.fixtures.forEach(match => {
+                    container.innerHTML += `
+                        <div class="glass-panel p-4 rounded-2xl flex flex-col gap-2 transition-all hover:bg-slate-900/40">
+                            <div class="flex justify-between items-center text-[9px] font-bold tracking-wider">
+                                <span class="text-slate-500 uppercase">${match.league}</span>
+                                <span class="text-blue-400 bg-blue-500/5 px-2 py-0.5 rounded border border-blue-500/10">${match.win_chance} PASS CHANCE</span>
+                            </div>
+                            <h4 class="font-bold text-slate-200 text-sm tracking-tight">${match.match_name}</h4>
+                            <div class="flex justify-between items-center text-xs border-t border-slate-800/40 mt-1.5 pt-2 text-slate-400">
+                                <span>Market: <strong class="text-slate-300 font-medium">${match.market}</strong></span>
+                                <span class="font-bold font-display text-slate-200 text-xs">${match.odds}</span>
+                            </div>
+                        </div>
+                    `;
                 });
             } catch (err) {
-                document.getElementById('fixtures-container').innerHTML = `<p style="color: red; text-align: center;">Sync pending...</p>`;
-            }
-        }
-
-        function copyCode() {
-            const code = document.getElementById('booking-code').innerText;
-            const btn = document.getElementById('copy-btn');
-            if(code !== "-------") {
-                navigator.clipboard.writeText(code);
-                btn.innerText = "Copied! ✓";
-                btn.style.backgroundColor = "#1f6feb";
-                setTimeout(() => {
-                    btn.innerText = "Copy Code";
-                    btn.style.backgroundColor = "#238636";
-                }, 2000);
+                document.getElementById('fixtures-container').innerHTML = `<p class="text-xs text-red-500 text-center py-4 bg-red-500/5 rounded-xl border border-red-500/10">Data Stream Sync Error</p>`;
             }
         }
         window.onload = initDashboard;
