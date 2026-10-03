@@ -4,15 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2Odds by Stats</title>
-    <!-- Sharp Professional Font Integration -->
     <link rel="preconnect" href="https://googleapis.com">
     <link rel="preconnect" href="https://gstatic.com" crossorigin>
     <link href="https://googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;800&display=swap" rel="stylesheet">
     
     <style>
-        /* 100% BULLETPROOF PURE CSS ARCHITECTURE - NO EXTERNAL CDN REQUIRED */
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        
         body { 
             background-color: #060914 !important; 
             color: #ffffff !important; 
@@ -23,195 +20,39 @@
             padding: 24px 16px;
             min-height: 100vh;
         }
-
-        .app-container {
-            width: 100%;
-            max-width: 440px;
-        }
-
-        /* Sophisticated Brand Elements */
-        .brand-header {
-            text-align: center;
-            margin-top: 15px;
-            margin-bottom: 25px;
-        }
-
-        .brand-title {
-            font-size: 30px;
-            font-weight: 800;
-            letter-spacing: -0.5px;
-            color: #ffffff;
-        }
-
-        .brand-title span {
-            color: #3b82f6;
-        }
-
-        .brand-subtitle {
-            font-size: 10px;
-            color: #64748b;
-            margin-top: 6px;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            font-weight: 600;
-        }
-
-        .grid-status {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            background-color: rgba(59, 130, 246, 0.1);
-            border: 1px solid rgba(59, 130, 246, 0.2);
-            color: #60a5fa;
-            font-size: 9px;
-            font-weight: bold;
-            padding: 4px 12px;
-            border-radius: 20px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 16px;
-        }
-
-        .pulse-dot {
-            height: 6px;
-            width: 6px;
-            background-color: #3b82f6;
-            border-radius: 50%;
-            animation: pulse 1.5s infinite;
-        }
-
-        /* Premium Glass Panel Components */
-        .glass-card {
-            background-color: #111827 !important;
-            border: 1px solid #1f2937 !important;
-            border-radius: 20px;
-            padding: 20px;
-            margin-bottom: 24px;
-            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
-            position: relative;
-        }
-
-        .alpha-badge-line {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid #1f2937;
-            padding-bottom: 12px;
-            margin-bottom: 16px;
-        }
-
-        .alpha-title {
-            font-size: 11px;
-            font-weight: 800;
-            color: #94a3b8;
-            letter-spacing: 0.5px;
-        }
-
-        .date-badge {
-            font-size: 10px;
-            color: #ffffff;
-            background-color: #030712;
-            border: 1px solid #1f2937;
-            padding: 4px 10px;
-            border-radius: 8px;
-            font-weight: bold;
-        }
-
-        /* Dynamic Matches Layout */
-        .match-row {
-            background-color: #070a12;
-            border: 1px solid #1f2937;
-            border-radius: 14px;
-            padding: 14px;
-            margin-bottom: 12px;
-        }
-
-        .league-header {
-            display: flex;
-            justify-content: space-between;
-            font-size: 9px;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 6px;
-        }
-
+        .app-container { width: 100%; max-width: 440px; }
+        .brand-header { text-align: center; margin-top: 15px; margin-bottom: 25px; }
+        .brand-title { font-size: 30px; font-weight: 800; color: #ffffff; }
+        .brand-title span { color: #3b82f6; }
+        .brand-subtitle { font-size: 10px; color: #64748b; margin-top: 6px; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 600; }
+        .glass-card { background-color: #111827 !important; border: 1px solid #1f2937 !important; border-radius: 20px; padding: 20px; margin-bottom: 24px; }
+        .alpha-badge-line { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #1f2937; padding-bottom: 12px; margin-bottom: 16px; }
+        .alpha-title { font-size: 11px; font-weight: 800; color: #94a3b8; }
+        .date-badge { font-size: 10px; color: #ffffff; background-color: #030712; border: 1px solid #1f2937; padding: 4px 10px; border-radius: 8px; font-weight: bold; }
+        .match-row { background-color: #070a12; border: 1px solid #1f2937; border-radius: 14px; padding: 14px; margin-bottom: 12px; }
+        .league-header { display: flex; justify-content: space-between; font-size: 9px; font-weight: bold; text-transform: uppercase; margin-bottom: 6px; }
         .league-name { color: #64748b; }
         .win-chance-safe { color: #10b981; }
         .win-chance-feed { color: #3b82f6; }
-
-        .team-names {
-            font-size: 15px;
-            font-weight: 800;
-            color: #ffffff !important;
-            margin-bottom: 8px;
-        }
-
-        .market-meta {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 12px;
-            color: #94a3b8;
-            border-top: 1px solid rgba(31, 41, 55, 0.4);
-            padding-top: 8px;
-        }
-
+        .team-names { font-size: 15px; font-weight: 800; color: #ffffff !important; margin-bottom: 8px; }
+        .market-meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #94a3b8; border-top: 1px solid rgba(31, 41, 55, 0.4); padding-top: 8px; }
         .market-text strong { color: #3b82f6; font-weight: 600; }
-        .odds-value { 
-            color: #fbbf24 !important; 
-            font-weight: 800; 
-            background-color: #030712; 
-            padding: 3px 8px; 
-            border-radius: 6px; 
-            border: 1px solid #1f2937;
-        }
-
-        /* Total Multiplier Footer Card */
-        .multiplier-bar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #030712;
-            border: 1px solid #1f2937;
-            padding: 14px;
-            border-radius: 14px;
-            margin-top: 16px;
-        }
-
-        .multiplier-title { font-size: 11px; font-weight: bold; color: #94a3b8; letter-spacing: 0.5px; }
+        .odds-value { color: #fbbf24 !important; font-weight: 800; background-color: #030712; padding: 3px 8px; border-radius: 6px; border: 1px solid #1f2937; }
+        .multiplier-bar { display: flex; justify-content: space-between; align-items: center; background-color: #030712; border: 1px solid #1f2937; padding: 14px; border-radius: 14px; margin-top: 16px; }
+        .multiplier-title { font-size: 11px; font-weight: bold; color: #94a3b8; }
         .multiplier-value { font-size: 22px; font-weight: 800; color: #10b981; }
-
-        .feed-heading {
-            font-size: 11px;
-            font-weight: 800;
-            color: #64748b;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 14px;
-            padding-left: 2px;
-        }
-
-        @keyframes pulse {
-            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.5); }
-            70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(59, 130, 246, 0); }
-            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
-        }
+        .feed-heading { font-size: 11px; font-weight: 800; color: #64748b; text-transform: uppercase; margin-bottom: 14px; }
     </style>
 </head>
 <body>
 
     <div class="app-container">
-        <!-- Sophisticated Brand Header -->
         <header class="brand-header">
-            <div class="grid-status">
-                <div class="pulse-dot"></div> Engine Active • 2026 Grid
-            </div>
             <h1 class="brand-title">2ODDS<span>BY</span>STATS</h1>
             <p class="brand-subtitle">Quantitative Football Forecast Matrix</p>
         </header>
 
-        <!-- Top Premium Safe Panel Component -->
+        <!-- Top Safe Panel Component -->
         <section class="glass-card" style="border-top: 3px solid #3b82f6 !important;">
             <div class="alpha-badge-line">
                 <div>
@@ -221,19 +62,17 @@
                 <span id="slip-date" class="date-badge">LOADING...</span>
             </div>
 
-            <!-- Dynamic Safe Match Cards Injection Target -->
             <div id="safe-legs-container">
                 <p style="font-size: 12px; color: #64748b; text-align: center; padding: 10px;">Processing vector arrays...</p>
             </div>
 
-            <!-- Total Multiplier Banner -->
             <div class="multiplier-bar">
                 <span class="multiplier-title">COMPUTED MULTIPLIER</span>
                 <span id="combined-odds" class="multiplier-value">...</span>
             </div>
         </section>
 
-        <!-- Lower Dashboard Feed -->
+        <!-- Lower Feed Panel -->
         <main>
             <h3 class="feed-heading">📋 Global Probability Stream (30 Locked)</h3>
             <div id="fixtures-container">
@@ -253,7 +92,6 @@
                 document.getElementById('slip-date').innerText = data.date;
                 document.getElementById('combined-odds').innerText = data.combined_odds;
                 
-                // 1. Render Top Alpha Double Slip (Safest Minor League Picks)
                 const safeContainer = document.getElementById('safe-legs-container');
                 safeContainer.innerHTML = "";
                 data.safe_fixtures.forEach(match => {
@@ -272,7 +110,6 @@
                     `;
                 });
                 
-                // 2. Render Lower 30-Fixtures Scroll Feed (Global Streams Unified Mapping)
                 const container = document.getElementById('fixtures-container');
                 container.innerHTML = ""; 
                 data.fixtures.forEach(match => {
@@ -282,3 +119,19 @@
                                 <span class="league-name">${match.league}</span>
                                 <span class="win-chance-feed">🟢 ${match.win_chance} PASS</span>
                             </div>
+                            <div class="team-names" style="font-size: 14px;">${match.match_name}</div>
+                            <div class="market-meta" style="font-size: 11px; margin-top: 6px; padding-top: 6px;">
+                                <span>Market: <strong>${match.market}</strong></span>
+                                <span class="odds-value" style="font-size: 11px;">${match.odds}</span>
+                            </div>
+                        </div>
+                    `;
+                });
+            } catch (err) {
+                document.getElementById('fixtures-container').innerHTML = `<p style="font-size: 11px; color: #ef4444; text-align: center;">Data Stream Sync Error</p>`;
+            }
+        }
+        window.onload = initDashboard;
+    </script>
+</body>
+</html>
