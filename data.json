@@ -1,264 +1,264 @@
 {
     "date": "SATURDAY 03 OCTOBER",
-    "combined_odds": "2.04 Odds",
+    "combined_odds": "1.99 Odds",
     "safe_fixtures": [
         {
-            "event_id": "20001",
-            "league": "NIGERIAN NPFL",
-            "match_name": "Enyimba vs Kano Pillars",
+            "event_id": "50002",
+            "league": "ENGLISH CHAMPIONSHIP",
+            "match_name": "Coventry vs West Brom",
             "market": "Over 1.5 Goals",
-            "win_chance": "91%",
-            "odds": "1.4"
+            "win_chance": "97%",
+            "odds": "1.45"
         },
         {
-            "event_id": "20002",
-            "league": "ENGLISH CHAMPIONSHIP",
-            "match_name": "Burnley vs Sheffield Utd",
-            "market": "1X Double Chance",
+            "event_id": "50006",
+            "league": "NETHERLANDS EERSTE DIVISIE",
+            "match_name": "De Graafschap vs Vitesse",
+            "market": "Over 1.5 Goals",
             "win_chance": "89%",
-            "odds": "1.46"
+            "odds": "1.37"
         }
     ],
     "fixtures": [
         {
-            "event_id": "20001",
-            "league": "NIGERIAN NPFL",
-            "match_name": "Enyimba vs Kano Pillars",
+            "event_id": "50001",
+            "league": "SPANISH LA LIGA",
+            "match_name": "Real Madrid vs Barcelona",
             "market": "Over 1.5 Goals",
-            "win_chance": "91%",
-            "odds": "1.4"
-        },
-        {
-            "event_id": "20002",
-            "league": "ENGLISH CHAMPIONSHIP",
-            "match_name": "Burnley vs Sheffield Utd",
-            "market": "1X Double Chance",
             "win_chance": "89%",
-            "odds": "1.46"
-        },
-        {
-            "event_id": "20003",
-            "league": "NETHERLANDS EERSTE DIVISIE",
-            "match_name": "Cambuur vs FC Emmen",
-            "market": "1X Double Chance",
-            "win_chance": "96%",
-            "odds": "1.4"
-        },
-        {
-            "event_id": "20004",
-            "league": "FRENCH LIGUE 2",
-            "match_name": "Metz vs Lorient",
-            "market": "Over 1.5 Goals",
-            "win_chance": "93%",
-            "odds": "1.36"
-        },
-        {
-            "event_id": "20005",
-            "league": "SOUTH AFRICAN PSL",
-            "match_name": "Mamelodi Sundowns vs Orlando Pirates",
-            "market": "Over 1.5 Goals",
-            "win_chance": "91%",
-            "odds": "1.4"
-        },
-        {
-            "event_id": "20006",
-            "league": "NIGERIAN NPFL",
-            "match_name": "Rangers Int vs Rivers United",
-            "market": "Over 1.5 Goals",
-            "win_chance": "96%",
-            "odds": "1.43"
-        },
-        {
-            "event_id": "20007",
-            "league": "ENGLISH CHAMPIONSHIP",
-            "match_name": "Burnley vs Sheffield Utd",
-            "market": "1X Double Chance",
-            "win_chance": "92%",
-            "odds": "1.45"
-        },
-        {
-            "event_id": "20008",
-            "league": "NETHERLANDS EERSTE DIVISIE",
-            "match_name": "Jong Ajax vs Helmond Sport",
-            "market": "1X Double Chance",
-            "win_chance": "94%",
-            "odds": "1.37"
-        },
-        {
-            "event_id": "20009",
-            "league": "FRENCH LIGUE 2",
-            "match_name": "Metz vs Lorient",
-            "market": "Over 1.5 Goals",
-            "win_chance": "97%",
-            "odds": "1.35"
-        },
-        {
-            "event_id": "20010",
-            "league": "SOUTH AFRICAN PSL",
-            "match_name": "Mamelodi Sundowns vs Orlando Pirates",
-            "market": "Over 1.5 Goals",
-            "win_chance": "93%",
-            "odds": "1.39"
-        },
-        {
-            "event_id": "20011",
-            "league": "NIGERIAN NPFL",
-            "match_name": "Remo Stars vs Shooting Stars",
-            "market": "1X Double Chance",
-            "win_chance": "90%",
             "odds": "1.41"
         },
         {
-            "event_id": "20012",
-            "league": "ENGLISH CHAMPIONSHIP",
-            "match_name": "Leeds vs Sunderland",
-            "market": "1X Double Chance",
-            "win_chance": "94%",
-            "odds": "1.39"
-        },
-        {
-            "event_id": "20013",
-            "league": "NETHERLANDS EERSTE DIVISIE",
-            "match_name": "Cambuur vs FC Emmen",
-            "market": "1X Double Chance",
-            "win_chance": "96%",
-            "odds": "1.36"
-        },
-        {
-            "event_id": "20014",
-            "league": "FRENCH LIGUE 2",
-            "match_name": "Paris FC vs Grenoble",
-            "market": "1X Double Chance",
-            "win_chance": "93%",
-            "odds": "1.38"
-        },
-        {
-            "event_id": "20015",
-            "league": "SOUTH AFRICAN PSL",
-            "match_name": "Mamelodi Sundowns vs Orlando Pirates",
-            "market": "1X Double Chance",
-            "win_chance": "93%",
-            "odds": "1.44"
-        },
-        {
-            "event_id": "20016",
-            "league": "NIGERIAN NPFL",
-            "match_name": "Enyimba vs Kano Pillars",
-            "market": "Over 1.5 Goals",
-            "win_chance": "95%",
-            "odds": "1.45"
-        },
-        {
-            "event_id": "20017",
+            "event_id": "50002",
             "league": "ENGLISH CHAMPIONSHIP",
             "match_name": "Coventry vs West Brom",
             "market": "Over 1.5 Goals",
-            "win_chance": "88%",
-            "odds": "1.41"
-        },
-        {
-            "event_id": "20018",
-            "league": "NETHERLANDS EERSTE DIVISIE",
-            "match_name": "Cambuur vs FC Emmen",
-            "market": "Over 1.5 Goals",
             "win_chance": "97%",
             "odds": "1.45"
         },
         {
-            "event_id": "20019",
-            "league": "FRENCH LIGUE 2",
-            "match_name": "Paris FC vs Grenoble",
+            "event_id": "50003",
+            "league": "ITALIAN SERIE A",
+            "match_name": "Juventus vs Napoli",
             "market": "1X Double Chance",
-            "win_chance": "90%",
-            "odds": "1.4"
+            "win_chance": "93%",
+            "odds": "1.45"
         },
         {
-            "event_id": "20020",
-            "league": "SOUTH AFRICAN PSL",
-            "match_name": "Mamelodi Sundowns vs Orlando Pirates",
+            "event_id": "50004",
+            "league": "ENGLISH PREMIER LEAGUE",
+            "match_name": "Arsenal vs Chelsea",
             "market": "1X Double Chance",
             "win_chance": "90%",
+            "odds": "1.42"
+        },
+        {
+            "event_id": "50005",
+            "league": "GERMAN BUNDESLIGA",
+            "match_name": "Bayern Munich vs Dortmund",
+            "market": "1X Double Chance",
+            "win_chance": "96%",
             "odds": "1.37"
         },
         {
-            "event_id": "20021",
-            "league": "NIGERIAN NPFL",
-            "match_name": "Enyimba vs Kano Pillars",
-            "market": "1X Double Chance",
+            "event_id": "50006",
+            "league": "NETHERLANDS EERSTE DIVISIE",
+            "match_name": "De Graafschap vs Vitesse",
+            "market": "Over 1.5 Goals",
             "win_chance": "89%",
-            "odds": "1.42"
+            "odds": "1.37"
         },
         {
-            "event_id": "20022",
-            "league": "ENGLISH CHAMPIONSHIP",
-            "match_name": "Burnley vs Sheffield Utd",
+            "event_id": "50007",
+            "league": "FRENCH LIGUE 2",
+            "match_name": "Guingamp vs Caen",
             "market": "1X Double Chance",
-            "win_chance": "95%",
+            "win_chance": "90%",
             "odds": "1.39"
         },
         {
-            "event_id": "20023",
-            "league": "NETHERLANDS EERSTE DIVISIE",
-            "match_name": "Jong Ajax vs Helmond Sport",
-            "market": "1X Double Chance",
-            "win_chance": "90%",
-            "odds": "1.42"
+            "event_id": "50008",
+            "league": "NIGERIAN NPFL",
+            "match_name": "Enyimba vs Kano Pillars",
+            "market": "Over 1.5 Goals",
+            "win_chance": "91%",
+            "odds": "1.47"
         },
         {
-            "event_id": "20024",
+            "event_id": "50009",
+            "league": "SOUTH AFRICAN PSL",
+            "match_name": "Mamelodi Sundowns vs Orlando Pirates",
+            "market": "1X Double Chance",
+            "win_chance": "89%",
+            "odds": "1.36"
+        },
+        {
+            "event_id": "50010",
+            "league": "SPANISH LA LIGA",
+            "match_name": "Real Sociedad vs Valencia",
+            "market": "Over 1.5 Goals",
+            "win_chance": "97%",
+            "odds": "1.43"
+        },
+        {
+            "event_id": "50011",
+            "league": "ITALIAN SERIE A",
+            "match_name": "Inter Milan vs AC Milan",
+            "market": "Over 1.5 Goals",
+            "win_chance": "91%",
+            "odds": "1.47"
+        },
+        {
+            "event_id": "50012",
             "league": "FRENCH LIGUE 2",
             "match_name": "Paris FC vs Grenoble",
-            "market": "1X Double Chance",
-            "win_chance": "97%",
+            "market": "Over 1.5 Goals",
+            "win_chance": "96%",
             "odds": "1.41"
         },
         {
-            "event_id": "20025",
+            "event_id": "50013",
+            "league": "NIGERIAN NPFL",
+            "match_name": "Remo Stars vs Shooting Stars",
+            "market": "Over 1.5 Goals",
+            "win_chance": "89%",
+            "odds": "1.40"
+        },
+        {
+            "event_id": "50014",
             "league": "SOUTH AFRICAN PSL",
             "match_name": "Kaizer Chiefs vs SuperSport Utd",
             "market": "Over 1.5 Goals",
             "win_chance": "95%",
+            "odds": "1.43"
+        },
+        {
+            "event_id": "50015",
+            "league": "ENGLISH CHAMPIONSHIP",
+            "match_name": "Luton vs Norwich",
+            "market": "Over 1.5 Goals",
+            "win_chance": "96%",
             "odds": "1.38"
         },
         {
-            "event_id": "20026",
-            "league": "NIGERIAN NPFL",
-            "match_name": "Remo Stars vs Shooting Stars",
+            "event_id": "50016",
+            "league": "ENGLISH PREMIER LEAGUE",
+            "match_name": "Man City vs Man United",
             "market": "Over 1.5 Goals",
-            "win_chance": "91%",
+            "win_chance": "96%",
+            "odds": "1.37"
+        },
+        {
+            "event_id": "50017",
+            "league": "GERMAN BUNDESLIGA",
+            "match_name": "Leverkusen vs RB Leipzig",
+            "market": "Over 1.5 Goals",
+            "win_chance": "94%",
             "odds": "1.35"
         },
         {
-            "event_id": "20027",
-            "league": "ENGLISH CHAMPIONSHIP",
-            "match_name": "Coventry vs West Brom",
-            "market": "1X Double Chance",
-            "win_chance": "93%",
-            "odds": "1.4"
+            "event_id": "50018",
+            "league": "NETHERLANDS EERSTE DIVISIE",
+            "match_name": "Volendam vs Telstar",
+            "market": "Over 1.5 Goals",
+            "win_chance": "91%",
+            "odds": "1.36"
         },
         {
-            "event_id": "20028",
-            "league": "NETHERLANDS EERSTE DIVISIE",
-            "match_name": "Jong Ajax vs Helmond Sport",
-            "market": "1X Double Chance",
+            "event_id": "50019",
+            "league": "FRENCH LIGUE 2",
+            "match_name": "Metz vs Lorient",
+            "market": "Over 1.5 Goals",
             "win_chance": "94%",
             "odds": "1.38"
         },
         {
-            "event_id": "20029",
-            "league": "FRENCH LIGUE 2",
-            "match_name": "Metz vs Lorient",
-            "market": "1X Double Chance",
-            "win_chance": "92%",
-            "odds": "1.43"
+            "event_id": "50020",
+            "league": "ITALIAN SERIE A",
+            "match_name": "AS Roma vs Lazio",
+            "market": "Over 1.5 Goals",
+            "win_chance": "94%",
+            "odds": "1.39"
         },
         {
-            "event_id": "20030",
-            "league": "SOUTH AFRICAN PSL",
-            "match_name": "Mamelodi Sundowns vs Orlando Pirates",
+            "event_id": "50021",
+            "league": "NETHERLANDS EERSTE DIVISIE",
+            "match_name": "Cambuur vs FC Emmen",
             "market": "1X Double Chance",
+            "win_chance": "95%",
+            "odds": "1.39"
+        },
+        {
+            "event_id": "50022",
+            "league": "NIGERIAN NPFL",
+            "match_name": "Lobi Stars vs Kwara United",
+            "market": "1X Double Chance",
+            "win_chance": "91%",
+            "odds": "1.47"
+        },
+        {
+            "event_id": "50023",
+            "league": "SOUTH AFRICAN PSL",
+            "match_name": "Cape Town City vs TS Galaxy",
+            "market": "Over 1.5 Goals",
+            "win_chance": "96%",
+            "odds": "1.34"
+        },
+        {
+            "event_id": "50024",
+            "league": "SPANISH LA LIGA",
+            "match_name": "Atletico Madrid vs Sevilla",
+            "market": "Over 1.5 Goals",
+            "win_chance": "95%",
+            "odds": "1.34"
+        },
+        {
+            "event_id": "50025",
+            "league": "ENGLISH PREMIER LEAGUE",
+            "match_name": "Liverpool vs Aston Villa",
+            "market": "1X Double Chance",
+            "win_chance": "91%",
+            "odds": "1.44"
+        },
+        {
+            "event_id": "50026",
+            "league": "ENGLISH CHAMPIONSHIP",
+            "match_name": "Leeds vs Sunderland",
+            "market": "1X Double Chance",
+            "win_chance": "95%",
+            "odds": "1.33"
+        },
+        {
+            "event_id": "50027",
+            "league": "NIGERIAN NPFL",
+            "match_name": "Rangers Int vs Rivers United",
+            "market": "Over 1.5 Goals",
+            "win_chance": "95%",
+            "odds": "1.44"
+        },
+        {
+            "event_id": "50028",
+            "league": "FRENCH LIGUE 2",
+            "match_name": "Clermont vs Troyes",
+            "market": "1X Double Chance",
+            "win_chance": "93%",
+            "odds": "1.40"
+        },
+        {
+            "event_id": "50029",
+            "league": "NETHERLANDS EERSTE DIVISIE",
+            "match_name": "Jong Ajax vs Helmond Sport",
+            "market": "1X Double Chance",
+            "win_chance": "96%",
+            "odds": "1.42"
+        },
+        {
+            "event_id": "50030",
+            "league": "ENGLISH CHAMPIONSHIP",
+            "match_name": "Burnley vs Sheffield Utd",
+            "market": "Over 1.5 Goals",
             "win_chance": "88%",
-            "odds": "1.37"
+            "odds": "1.41"
         }
     ]
 }
