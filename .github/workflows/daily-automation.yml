@@ -1,0 +1,32 @@
+name: Run Daily 2Odds Engine Automation
+
+on:
+  schedule:
+    # 03:00 UTC corresponds precisely to 04:00 AM West Africa Time (WAT)
+    - cron: '0 3 * * *'
+  workflow_dispatch: # Allows you to manually click a button to test run it anytime
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository Code
+      uses: actions/checkout@v3
+
+    - name: Setup Cloud Python Environment
+      uses: actions/setup-python@v4
+      with:
+        python-python: '3.10'
+
+    - name: Run Mathematical Filter Script
+      run: |
+        pip install requests
+        python engine.py
+
+    - name: Automatically Commit & Deploy Fresh Data
+      run: |
+        git config --global user.name "2odds-bot"
+        git config --global user.email "bot@2odds.ai"
+        git add data.json
+        git commit -m "Automated Refresh: Daily 30 Vetted Matches Updated" || exit 0
+        git push
