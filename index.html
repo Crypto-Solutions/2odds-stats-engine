@@ -21,7 +21,7 @@
             flex-direction: column;
             align-items: center;
             padding: 24px 16px;
-            min-height: screen;
+            min-height: 100vh;
         }
 
         .app-container {
@@ -253,7 +253,7 @@
                 document.getElementById('slip-date').innerText = data.date;
                 document.getElementById('combined-odds').innerText = data.combined_odds;
                 
-                // 1. Render Top Alpha Double Slip
+                // 1. Render Top Alpha Double Slip (Safest Minor League Picks)
                 const safeContainer = document.getElementById('safe-legs-container');
                 safeContainer.innerHTML = "";
                 data.safe_fixtures.forEach(match => {
@@ -272,7 +272,7 @@
                     `;
                 });
                 
-                // 2. Render Lower 30-Fixtures Scroll Feed
+                // 2. Render Lower 30-Fixtures Scroll Feed (Global Streams Unified Mapping)
                 const container = document.getElementById('fixtures-container');
                 container.innerHTML = ""; 
                 data.fixtures.forEach(match => {
