@@ -3,54 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2Odds by Stats | Premium Football Selections</title>
+    <title>2Odds by Stats</title>
     <script src="https://tailwindcss.com"></script>
     <style>
-        body { background-color: #060913 !important; font-family: system-ui, -apple-system, sans-serif; }
+        body { background-color: #0d1117 !important; color: #ffffff !important; font-family: sans-serif; }
+        .card { background-color: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+        .badge { background-color: #1f6feb; color: white; padding: 2px 8px; id-radius: 20px; font-size: 11px; font-weight: bold; }
+        .btn-copy { background-color: #238636; color: white; border: none; padding: 8px 16px; border-radius: 6px; font-weight: bold; cursor: pointer; }
     </style>
 </head>
-<body class="text-white flex flex-col items-center min-h-screen p-4 md:p-8">
+<body style="padding: 20px; max-w: 480px; margin: 0 auto;">
 
     <!-- Brand Header -->
-    <div class="mb-8 text-center mt-6">
-        <h1 class="text-3xl font-extrabold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-green-400">⚽ 2ODDS BY STATS</h1>
-        <p class="text-xs text-gray-400 mt-2 tracking-widest uppercase">Algorithmic Vetted Selections</p>
+    <div style="text-align: center; margin-top: 20px; margin-bottom: 30px;">
+        <h1 style="font-size: 28px; font-weight: 900; margin: 0; color: #58a6ff;">⚽ 2ODDS BY STATS</h1>
+        <p style="font-size: 12px; color: #8b949e; margin-top: 5px; text-transform: uppercase; letter-spacing: 1px;">Algorithmic Vetted Selections</p>
     </div>
 
-    <!-- Main Booking Code Card -->
-    <div class="w-full max-w-md bg-gray-900 border border-gray-800 rounded-2xl shadow-2xl p-6 relative overflow-hidden mb-8">
-        <div class="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-green-400 to-emerald-400"></div>
+    <!-- Main Slip Box -->
+    <div class="card" style="border-top: 4px solid #238636;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+            <span style="color: #58a6ff; font-weight: bold; font-size: 13px;">🔥 TODAY'S MAIN SLIP</span>
+            <span id="slip-date" style="font-size: 12px; color: #c9d1d9; font-weight: bold;">LOADING...</span>
+        </div>
         
-        <div class="flex justify-between items-center mb-4">
-            <span class="text-[11px] uppercase font-bold tracking-wider text-green-400 flex items-center gap-1.5">
-                <span class="h-2 w-2 rounded-full bg-green-500 animate-pulse"></span> Today's Main Slip
-            </span>
-            <span id="slip-date" class="text-xs text-gray-300 font-bold bg-gray-950 px-2.5 py-1 rounded border border-gray-800">LOADING...</span>
+        <p style="font-size: 11px; color: #8b949e; text-transform: uppercase; margin-bottom: 5px; font-weight: bold;">SportyBet Booking Code</p>
+        <div style="display: flex; justify-content: space-between; align-items: center; background: #0d1117; padding: 10px; border-radius: 8px; border: 1px solid #30363d;">
+            <span id="booking-code" style="font-family: monospace; font-size: 20px; font-weight: 900; color: #ffd60a;">-------</span>
+            <button onclick="copyCode()" id="copy-btn" class="btn-copy">Copy Code</button>
         </div>
 
-        <div class="border-t border-gray-800/80 pt-4 text-center">
-            <p class="text-[10px] font-bold text-gray-400 tracking-widest uppercase mb-2">SportyBet Booking Code</p>
-            <div class="flex items-center justify-between bg-black p-3 rounded-xl border border-gray-800">
-                <span id="booking-code" class="text-xl font-mono font-black tracking-widest text-yellow-400 pl-3">-------</span>
-                <button onclick="copyCode()" id="copy-btn" class="bg-green-500 hover:bg-green-600 text-black text-xs font-bold px-4 py-2.5 rounded-lg transition-all duration-150 shadow-lg shadow-green-500/20">
-                    Copy Code
-                </button>
-            </div>
-            <div class="mt-4 text-xs bg-gray-950 p-3 rounded-xl border border-gray-800/60 flex justify-between items-center">
-                <span class="text-gray-400 font-medium">Combined Slip Odds:</span>
-                <span id="combined-odds" class="text-green-400 font-black text-base">...</span>
-            </div>
+        <div style="display: flex; justify-content: space-between; font-size: 13px; margin-top: 15px; background: #21262d; padding: 10px; border-radius: 8px; color: #c9d1d9;">
+            <span>Combined Slip Odds:</span>
+            <span id="combined-odds" style="color: #58a6ff; font-weight: bold;">...</span>
         </div>
     </div>
 
-    <!-- 30 Matches Feed Area -->
-    <div class="w-full max-w-md mb-12">
-        <h2 class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-4 pl-1 flex items-center gap-2">
-            <span>📋</span> Daily High-Probability Feed
-        </h2>
-        <div id="fixtures-container" class="space-y-3.5">
-            <p class="text-xs text-gray-400 text-center py-6 animate-pulse">Synchronizing match matrix data streams...</p>
-        </div>
+    <!-- Vetted Feed -->
+    <h2 style="font-size: 14px; text-transform: uppercase; color: #8b949e; margin-top: 30px; margin-bottom: 15px; letter-spacing: 0.5px;">📋 Daily Fixtures Feed</h2>
+    <div id="fixtures-container">
+        <p style="font-size: 13px; color: #8b949e; text-align: center; padding: 20px;">Connecting to data stream...</p>
     </div>
 
     <script>
@@ -70,22 +62,22 @@
                 
                 data.fixtures.forEach(match => {
                     const row = `
-                        <div class="bg-gray-900 border border-gray-800/90 p-4 rounded-xl flex flex-col gap-1.5 shadow-md">
-                            <div class="flex justify-between items-center text-[10px] font-bold tracking-wider">
-                                <span class="text-gray-400 uppercase font-semibold">${match.league}</span>
-                                <span class="text-green-400 bg-green-950/40 px-2.5 py-0.5 rounded-full border border-green-900/60">${match.win_chance} Win Chance</span>
+                        <div class="card">
+                            <div style="display: flex; justify-content: space-between; font-size: 11px; margin-bottom: 8px; font-weight: bold;">
+                                <span style="color: #8b949e;">${match.league}</span>
+                                <span style="color: #58a6ff;">🟢 ${match.win_chance} Win Chance</span>
                             </div>
-                            <h3 class="font-extrabold text-white text-base my-0.5">${match.match_name}</h3>
-                            <div class="flex justify-between text-xs border-t border-gray-800/50 pt-2 mt-0.5">
-                                <span class="text-gray-400">Market: <strong class="text-emerald-400 font-bold">${match.market}</strong></span>
-                                <span class="text-gray-400">Odds: <strong class="text-yellow-400 font-bold">${match.odds}</strong></span>
+                            <h3 style="font-size: 16px; font-weight: bold; margin: 5px 0; color: #ffffff;">${match.match_name}</h3>
+                            <div style="display: flex; justify-content: space-between; font-size: 13px; border-top: 1px solid #30363d; pt-2; margin-top: 8px; padding-top: 8px; color: #c9d1d9;">
+                                <span>Market: <strong style="color: #58a6ff;">${match.market}</strong></span>
+                                <span>Odds: <strong style="color: #ffd60a;">${match.odds}</strong></span>
                             </div>
                         </div>
                     `;
                     container.innerHTML += row;
                 });
             } catch (err) {
-                document.getElementById('fixtures-container').innerHTML = `<p class="text-xs text-red-400 text-center py-4 bg-red-950/20 rounded-xl border border-red-900/30">Engine synchronization pending...</p>`;
+                document.getElementById('fixtures-container').innerHTML = `<p style="color: red; text-align: center;">Sync pending...</p>`;
             }
         }
 
@@ -95,12 +87,10 @@
             if(code !== "-------") {
                 navigator.clipboard.writeText(code);
                 btn.innerText = "Copied! ✓";
-                btn.classList.replace('bg-green-500', 'bg-emerald-600');
-                btn.classList.replace('text-black', 'text-white');
+                btn.style.backgroundColor = "#1f6feb";
                 setTimeout(() => {
                     btn.innerText = "Copy Code";
-                    btn.classList.replace('bg-emerald-600', 'bg-green-500');
-                    btn.classList.replace('text-white', 'text-black');
+                    btn.style.backgroundColor = "#238636";
                 }, 2000);
             }
         }
