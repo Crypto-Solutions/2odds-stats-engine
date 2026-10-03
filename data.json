@@ -1,264 +1,264 @@
 {
     "date": "SATURDAY 03 OCTOBER",
-    "combined_odds": "1.99 Odds",
+    "combined_odds": "1.84 Odds",
     "safe_fixtures": [
         {
-            "event_id": "50002",
-            "league": "ENGLISH CHAMPIONSHIP",
-            "match_name": "Coventry vs West Brom",
-            "market": "Over 1.5 Goals",
-            "win_chance": "97%",
-            "odds": "1.45"
+            "event_id": "90001",
+            "league": "QATAR STARS LEAGUE",
+            "match_name": "Al Duhail vs Al Sadd",
+            "market": "1X Double Chance",
+            "win_chance": "93%",
+            "odds": "1.33"
         },
         {
-            "event_id": "50006",
-            "league": "NETHERLANDS EERSTE DIVISIE",
-            "match_name": "De Graafschap vs Vitesse",
+            "event_id": "90002",
+            "league": "SPAIN SEGUNDA",
+            "match_name": "Levante vs Elche",
             "market": "Over 1.5 Goals",
-            "win_chance": "89%",
-            "odds": "1.37"
+            "win_chance": "97%",
+            "odds": "1.38"
         }
     ],
     "fixtures": [
         {
-            "event_id": "50001",
-            "league": "SPANISH LA LIGA",
-            "match_name": "Real Madrid vs Barcelona",
-            "market": "Over 1.5 Goals",
-            "win_chance": "89%",
-            "odds": "1.41"
-        },
-        {
-            "event_id": "50002",
-            "league": "ENGLISH CHAMPIONSHIP",
-            "match_name": "Coventry vs West Brom",
-            "market": "Over 1.5 Goals",
-            "win_chance": "97%",
-            "odds": "1.45"
-        },
-        {
-            "event_id": "50003",
-            "league": "ITALIAN SERIE A",
-            "match_name": "Juventus vs Napoli",
+            "event_id": "90001",
+            "league": "QATAR STARS LEAGUE",
+            "match_name": "Al Duhail vs Al Sadd",
             "market": "1X Double Chance",
             "win_chance": "93%",
-            "odds": "1.45"
-        },
-        {
-            "event_id": "50004",
-            "league": "ENGLISH PREMIER LEAGUE",
-            "match_name": "Arsenal vs Chelsea",
-            "market": "1X Double Chance",
-            "win_chance": "90%",
-            "odds": "1.42"
-        },
-        {
-            "event_id": "50005",
-            "league": "GERMAN BUNDESLIGA",
-            "match_name": "Bayern Munich vs Dortmund",
-            "market": "1X Double Chance",
-            "win_chance": "96%",
-            "odds": "1.37"
-        },
-        {
-            "event_id": "50006",
-            "league": "NETHERLANDS EERSTE DIVISIE",
-            "match_name": "De Graafschap vs Vitesse",
-            "market": "Over 1.5 Goals",
-            "win_chance": "89%",
-            "odds": "1.37"
-        },
-        {
-            "event_id": "50007",
-            "league": "FRENCH LIGUE 2",
-            "match_name": "Guingamp vs Caen",
-            "market": "1X Double Chance",
-            "win_chance": "90%",
-            "odds": "1.39"
-        },
-        {
-            "event_id": "50008",
-            "league": "NIGERIAN NPFL",
-            "match_name": "Enyimba vs Kano Pillars",
-            "market": "Over 1.5 Goals",
-            "win_chance": "91%",
-            "odds": "1.47"
-        },
-        {
-            "event_id": "50009",
-            "league": "SOUTH AFRICAN PSL",
-            "match_name": "Mamelodi Sundowns vs Orlando Pirates",
-            "market": "1X Double Chance",
-            "win_chance": "89%",
-            "odds": "1.36"
-        },
-        {
-            "event_id": "50010",
-            "league": "SPANISH LA LIGA",
-            "match_name": "Real Sociedad vs Valencia",
-            "market": "Over 1.5 Goals",
-            "win_chance": "97%",
-            "odds": "1.43"
-        },
-        {
-            "event_id": "50011",
-            "league": "ITALIAN SERIE A",
-            "match_name": "Inter Milan vs AC Milan",
-            "market": "Over 1.5 Goals",
-            "win_chance": "91%",
-            "odds": "1.47"
-        },
-        {
-            "event_id": "50012",
-            "league": "FRENCH LIGUE 2",
-            "match_name": "Paris FC vs Grenoble",
-            "market": "Over 1.5 Goals",
-            "win_chance": "96%",
-            "odds": "1.41"
-        },
-        {
-            "event_id": "50013",
-            "league": "NIGERIAN NPFL",
-            "match_name": "Remo Stars vs Shooting Stars",
-            "market": "Over 1.5 Goals",
-            "win_chance": "89%",
-            "odds": "1.40"
-        },
-        {
-            "event_id": "50014",
-            "league": "SOUTH AFRICAN PSL",
-            "match_name": "Kaizer Chiefs vs SuperSport Utd",
-            "market": "Over 1.5 Goals",
-            "win_chance": "95%",
-            "odds": "1.43"
-        },
-        {
-            "event_id": "50015",
-            "league": "ENGLISH CHAMPIONSHIP",
-            "match_name": "Luton vs Norwich",
-            "market": "Over 1.5 Goals",
-            "win_chance": "96%",
-            "odds": "1.38"
-        },
-        {
-            "event_id": "50016",
-            "league": "ENGLISH PREMIER LEAGUE",
-            "match_name": "Man City vs Man United",
-            "market": "Over 1.5 Goals",
-            "win_chance": "96%",
-            "odds": "1.37"
-        },
-        {
-            "event_id": "50017",
-            "league": "GERMAN BUNDESLIGA",
-            "match_name": "Leverkusen vs RB Leipzig",
-            "market": "Over 1.5 Goals",
-            "win_chance": "94%",
-            "odds": "1.35"
-        },
-        {
-            "event_id": "50018",
-            "league": "NETHERLANDS EERSTE DIVISIE",
-            "match_name": "Volendam vs Telstar",
-            "market": "Over 1.5 Goals",
-            "win_chance": "91%",
-            "odds": "1.36"
-        },
-        {
-            "event_id": "50019",
-            "league": "FRENCH LIGUE 2",
-            "match_name": "Metz vs Lorient",
-            "market": "Over 1.5 Goals",
-            "win_chance": "94%",
-            "odds": "1.38"
-        },
-        {
-            "event_id": "50020",
-            "league": "ITALIAN SERIE A",
-            "match_name": "AS Roma vs Lazio",
-            "market": "Over 1.5 Goals",
-            "win_chance": "94%",
-            "odds": "1.39"
-        },
-        {
-            "event_id": "50021",
-            "league": "NETHERLANDS EERSTE DIVISIE",
-            "match_name": "Cambuur vs FC Emmen",
-            "market": "1X Double Chance",
-            "win_chance": "95%",
-            "odds": "1.39"
-        },
-        {
-            "event_id": "50022",
-            "league": "NIGERIAN NPFL",
-            "match_name": "Lobi Stars vs Kwara United",
-            "market": "1X Double Chance",
-            "win_chance": "91%",
-            "odds": "1.47"
-        },
-        {
-            "event_id": "50023",
-            "league": "SOUTH AFRICAN PSL",
-            "match_name": "Cape Town City vs TS Galaxy",
-            "market": "Over 1.5 Goals",
-            "win_chance": "96%",
-            "odds": "1.34"
-        },
-        {
-            "event_id": "50024",
-            "league": "SPANISH LA LIGA",
-            "match_name": "Atletico Madrid vs Sevilla",
-            "market": "Over 1.5 Goals",
-            "win_chance": "95%",
-            "odds": "1.34"
-        },
-        {
-            "event_id": "50025",
-            "league": "ENGLISH PREMIER LEAGUE",
-            "match_name": "Liverpool vs Aston Villa",
-            "market": "1X Double Chance",
-            "win_chance": "91%",
-            "odds": "1.44"
-        },
-        {
-            "event_id": "50026",
-            "league": "ENGLISH CHAMPIONSHIP",
-            "match_name": "Leeds vs Sunderland",
-            "market": "1X Double Chance",
-            "win_chance": "95%",
             "odds": "1.33"
         },
         {
-            "event_id": "50027",
-            "league": "NIGERIAN NPFL",
-            "match_name": "Rangers Int vs Rivers United",
+            "event_id": "90002",
+            "league": "SPAIN SEGUNDA",
+            "match_name": "Levante vs Elche",
             "market": "Over 1.5 Goals",
-            "win_chance": "95%",
-            "odds": "1.44"
+            "win_chance": "97%",
+            "odds": "1.38"
         },
         {
-            "event_id": "50028",
-            "league": "FRENCH LIGUE 2",
-            "match_name": "Clermont vs Troyes",
+            "event_id": "90003",
+            "league": "BELGIUM PRO LEAGUE",
+            "match_name": "Club Brugge vs Anderlecht",
             "market": "1X Double Chance",
-            "win_chance": "93%",
+            "win_chance": "96%",
+            "odds": "1.41"
+        },
+        {
+            "event_id": "90004",
+            "league": "FRANCE LIGUE 2",
+            "match_name": "Metz vs Lorient",
+            "market": "Over 1.5 Goals",
+            "win_chance": "97%",
             "odds": "1.40"
         },
         {
-            "event_id": "50029",
+            "event_id": "90005",
+            "league": "USA MLS",
+            "match_name": "LA Galaxy vs Inter Miami",
+            "market": "1X Double Chance",
+            "win_chance": "96%",
+            "odds": "1.37"
+        },
+        {
+            "event_id": "90006",
+            "league": "BRAZIL SERIE A",
+            "match_name": "Flamengo vs Palmeiras",
+            "market": "Over 1.5 Goals",
+            "win_chance": "97%",
+            "odds": "1.39"
+        },
+        {
+            "event_id": "90007",
+            "league": "SWEDEN ALLSVENSKAN",
+            "match_name": "Malmo FF vs AIK",
+            "market": "1X Double Chance",
+            "win_chance": "96%",
+            "odds": "1.34"
+        },
+        {
+            "event_id": "90008",
+            "league": "AUSTRIA BUNDESLIGA",
+            "match_name": "Rapid Vienna vs Sturm Graz",
+            "market": "Over 1.5 Goals",
+            "win_chance": "92%",
+            "odds": "1.35"
+        },
+        {
+            "event_id": "90009",
+            "league": "NETHERLANDS EERSTE DIVISIE",
+            "match_name": "Cambuur vs FC Emmen",
+            "market": "1X Double Chance",
+            "win_chance": "96%",
+            "odds": "1.42"
+        },
+        {
+            "event_id": "90010",
+            "league": "ARGENTINA PRIMERA",
+            "match_name": "Boca Juniors vs River Plate",
+            "market": "Over 1.5 Goals",
+            "win_chance": "92%",
+            "odds": "1.38"
+        },
+        {
+            "event_id": "90011",
+            "league": "PORTUGAL LIGA BWIN",
+            "match_name": "Benfica vs FC Porto",
+            "market": "1X Double Chance",
+            "win_chance": "92%",
+            "odds": "1.36"
+        },
+        {
+            "event_id": "90012",
+            "league": "SPAIN SEGUNDA",
+            "match_name": "Zaragoza vs Tenerife",
+            "market": "Over 1.5 Goals",
+            "win_chance": "94%",
+            "odds": "1.44"
+        },
+        {
+            "event_id": "90013",
+            "league": "NORWAY ELITESERIEN",
+            "match_name": "Bod\u00f8/Glimt vs Molde",
+            "market": "1X Double Chance",
+            "win_chance": "87%",
+            "odds": "1.46"
+        },
+        {
+            "event_id": "90014",
+            "league": "GERMANY 2. BUNDESLIGA",
+            "match_name": "Hamburger SV vs Hertha Berlin",
+            "market": "1X Double Chance",
+            "win_chance": "89%",
+            "odds": "1.40"
+        },
+        {
+            "event_id": "90015",
+            "league": "FRANCE LIGUE 2",
+            "match_name": "Paris FC vs Grenoble",
+            "market": "1X Double Chance",
+            "win_chance": "96%",
+            "odds": "1.46"
+        },
+        {
+            "event_id": "90016",
+            "league": "RUSSIA PREMIER LEAGUE",
+            "match_name": "Zenit vs Spartak Moscow",
+            "market": "1X Double Chance",
+            "win_chance": "96%",
+            "odds": "1.44"
+        },
+        {
+            "event_id": "90017",
+            "league": "NIGERIAN NPFL",
+            "match_name": "Rangers Int vs Rivers United",
+            "market": "1X Double Chance",
+            "win_chance": "89%",
+            "odds": "1.33"
+        },
+        {
+            "event_id": "90018",
             "league": "NETHERLANDS EERSTE DIVISIE",
             "match_name": "Jong Ajax vs Helmond Sport",
             "market": "1X Double Chance",
             "win_chance": "96%",
+            "odds": "1.43"
+        },
+        {
+            "event_id": "90019",
+            "league": "BRAZIL SERIE A",
+            "match_name": "Sao Paulo vs Santos",
+            "market": "1X Double Chance",
+            "win_chance": "94%",
             "odds": "1.42"
         },
         {
-            "event_id": "50030",
-            "league": "ENGLISH CHAMPIONSHIP",
-            "match_name": "Burnley vs Sheffield Utd",
+            "event_id": "90020",
+            "league": "TURKEY SUPER LIG",
+            "match_name": "Fenerbahce vs Galatasaray",
+            "market": "1X Double Chance",
+            "win_chance": "92%",
+            "odds": "1.42"
+        },
+        {
+            "event_id": "90021",
+            "league": "NETHERLANDS EERSTE DIVISIE",
+            "match_name": "Volendam vs Telstar",
             "market": "Over 1.5 Goals",
-            "win_chance": "88%",
+            "win_chance": "97%",
+            "odds": "1.35"
+        },
+        {
+            "event_id": "90022",
+            "league": "NIGERIAN NPFL",
+            "match_name": "Enyimba vs Remo Stars",
+            "market": "1X Double Chance",
+            "win_chance": "96%",
+            "odds": "1.36"
+        },
+        {
+            "event_id": "90023",
+            "league": "UAE PRO LEAGUE",
+            "match_name": "Al Ain vs Al Wahda",
+            "market": "Over 1.5 Goals",
+            "win_chance": "96%",
+            "odds": "1.43"
+        },
+        {
+            "event_id": "90024",
+            "league": "QATAR STARS LEAGUE",
+            "match_name": "Al Duhail vs Al Sadd",
+            "market": "1X Double Chance",
+            "win_chance": "94%",
             "odds": "1.41"
+        },
+        {
+            "event_id": "90025",
+            "league": "SPAIN SEGUNDA",
+            "match_name": "Levante vs Elche",
+            "market": "1X Double Chance",
+            "win_chance": "94%",
+            "odds": "1.35"
+        },
+        {
+            "event_id": "90026",
+            "league": "BELGIUM PRO LEAGUE",
+            "match_name": "Club Brugge vs Anderlecht",
+            "market": "Over 1.5 Goals",
+            "win_chance": "90%",
+            "odds": "1.35"
+        },
+        {
+            "event_id": "90027",
+            "league": "FRANCE LIGUE 2",
+            "match_name": "Metz vs Lorient",
+            "market": "Over 1.5 Goals",
+            "win_chance": "91%",
+            "odds": "1.32"
+        },
+        {
+            "event_id": "90028",
+            "league": "USA MLS",
+            "match_name": "LA Galaxy vs Inter Miami",
+            "market": "1X Double Chance",
+            "win_chance": "87%",
+            "odds": "1.32"
+        },
+        {
+            "event_id": "90029",
+            "league": "BRAZIL SERIE A",
+            "match_name": "Flamengo vs Palmeiras",
+            "market": "1X Double Chance",
+            "win_chance": "94%",
+            "odds": "1.44"
+        },
+        {
+            "event_id": "90030",
+            "league": "SWEDEN ALLSVENSKAN",
+            "match_name": "Malmo FF vs AIK",
+            "market": "Over 1.5 Goals",
+            "win_chance": "91%",
+            "odds": "1.35"
         }
     ]
 }
