@@ -1,0 +1,28 @@
+{
+    "date": "SATURDAY 03 OCTOBER",
+    "main_booking_code": "BC3W9XYZ",
+    "combined_odds": "2.01 Odds",
+    "fixtures": [
+        {
+            "league": "EGYPT PREMIER LEAGUE",
+            "match_name": "Al Ahly vs Zamalek",
+            "market": "1X Double Chance",
+            "win_chance": "92%",
+            "odds": "1.35"
+        },
+        {
+            "league": "NETHERLANDS EERSTE DIVISIE",
+            "match_name": "Jong Ajax vs Helmond Sport",
+            "market": "Over 1.5 Goals",
+            "win_chance": "94%",
+            "odds": "1.48"
+        },
+        {
+            "league": "SOUTH AFRICA PSL",
+            "match_name": "Mamelodi Sundowns vs Orlando Pirates",
+            "market": "1X Double Chance",
+            "win_chance": "90%",
+            "odds": "1.3"
+        }
+    ]
+}
