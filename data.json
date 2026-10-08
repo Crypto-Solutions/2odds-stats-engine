@@ -1,264 +1,264 @@
 {
-    "date": "WEDNESDAY 07 OCTOBER",
-    "combined_odds": "1.89 Odds",
+    "date": "THURSDAY 08 OCTOBER",
+    "combined_odds": "1.95 Odds",
     "safe_fixtures": [
         {
-            "event_id": "82010",
-            "league": "ARGENTINA PRIMERA",
-            "match_name": "River Plate vs Boca Juniors",
+            "event_id": "82015",
+            "league": "USA MLS",
+            "match_name": "LA Galaxy vs Inter Miami",
             "market": "Over 1.5 Goals",
-            "win_chance": "97%",
-            "odds": "1.40"
+            "win_chance": "93%",
+            "odds": "1.42"
         },
         {
-            "event_id": "82023",
-            "league": "NIGERIAN NPFL",
-            "match_name": "Enyimba vs Remo Stars",
+            "event_id": "82016",
+            "league": "TURKEY SUPER LIG",
+            "match_name": "Fenerbahce vs Galatasaray",
             "market": "Over 1.5 Goals",
-            "win_chance": "90%",
-            "odds": "1.35"
+            "win_chance": "98%",
+            "odds": "1.37"
         }
     ],
     "fixtures": [
         {
-            "event_id": "82010",
-            "league": "ARGENTINA PRIMERA",
-            "match_name": "River Plate vs Boca Juniors",
+            "event_id": "82015",
+            "league": "USA MLS",
+            "match_name": "LA Galaxy vs Inter Miami",
             "market": "Over 1.5 Goals",
-            "win_chance": "97%",
-            "odds": "1.40"
-        },
-        {
-            "event_id": "82023",
-            "league": "NIGERIAN NPFL",
-            "match_name": "Enyimba vs Remo Stars",
-            "market": "Over 1.5 Goals",
-            "win_chance": "90%",
-            "odds": "1.35"
-        },
-        {
-            "event_id": "82018",
-            "league": "ARGENTINA PRIMERA",
-            "match_name": "Racing Club vs Platense",
-            "market": "1X Double Chance",
-            "win_chance": "97%",
-            "odds": "1.34"
-        },
-        {
-            "event_id": "82021",
-            "league": "SPAIN SEGUNDA",
-            "match_name": "Real Zaragoza vs Tenerife",
-            "market": "1X Double Chance",
-            "win_chance": "94%",
-            "odds": "1.35"
-        },
-        {
-            "event_id": "82029",
-            "league": "NETHERLANDS EERSTE DIVISIE",
-            "match_name": "Cambuur vs FC Emmen",
-            "market": "1X Double Chance",
-            "win_chance": "92%",
-            "odds": "1.39"
-        },
-        {
-            "event_id": "82001",
-            "league": "SPAIN SEGUNDA",
-            "match_name": "Levante vs Elche",
-            "market": "Over 1.5 Goals",
-            "win_chance": "98%",
-            "odds": "1.35"
-        },
-        {
-            "event_id": "82014",
-            "league": "NETHERLANDS EERSTE DIVISIE",
-            "match_name": "Cambuur vs FC Emmen",
-            "market": "1X Double Chance",
             "win_chance": "93%",
-            "odds": "1.40"
-        },
-        {
-            "event_id": "82007",
-            "league": "USA MLS",
-            "match_name": "LA Galaxy vs Inter Miami",
-            "market": "Over 1.5 Goals",
-            "win_chance": "91%",
-            "odds": "1.37"
-        },
-        {
-            "event_id": "82022",
-            "league": "USA MLS",
-            "match_name": "LA Galaxy vs Inter Miami",
-            "market": "1X Double Chance",
-            "win_chance": "95%",
-            "odds": "1.34"
+            "odds": "1.42"
         },
         {
             "event_id": "82016",
+            "league": "TURKEY SUPER LIG",
+            "match_name": "Fenerbahce vs Galatasaray",
+            "market": "Over 1.5 Goals",
+            "win_chance": "98%",
+            "odds": "1.37"
+        },
+        {
+            "event_id": "82014",
+            "league": "SPAIN SEGUNDA",
+            "match_name": "Real Zaragoza vs Tenerife",
+            "market": "Over 1.5 Goals",
+            "win_chance": "90%",
+            "odds": "1.38"
+        },
+        {
+            "event_id": "82029",
+            "league": "SPAIN SEGUNDA",
+            "match_name": "Real Zaragoza vs Tenerife",
+            "market": "Over 1.5 Goals",
+            "win_chance": "92%",
+            "odds": "1.35"
+        },
+        {
+            "event_id": "82001",
+            "league": "TURKEY SUPER LIG",
+            "match_name": "Fenerbahce vs Galatasaray",
+            "market": "1X Double Chance",
+            "win_chance": "96%",
+            "odds": "1.42"
+        },
+        {
+            "event_id": "82007",
+            "league": "BRAZIL SERIE A",
+            "match_name": "Vasco da Gama vs Juventude",
+            "market": "1X Double Chance",
+            "win_chance": "96%",
+            "odds": "1.43"
+        },
+        {
+            "event_id": "82009",
+            "league": "SAUDI PRO LEAGUE",
+            "match_name": "Al Hilal vs Al Nassr",
+            "market": "1X Double Chance",
+            "win_chance": "95%",
+            "odds": "1.43"
+        },
+        {
+            "event_id": "82004",
+            "league": "NETHERLANDS EERSTE DIVISIE",
+            "match_name": "Cambuur vs FC Emmen",
+            "market": "1X Double Chance",
+            "win_chance": "89%",
+            "odds": "1.34"
+        },
+        {
+            "event_id": "82028",
+            "league": "BRAZIL SERIE A",
+            "match_name": "Flamengo vs Palmeiras",
+            "market": "1X Double Chance",
+            "win_chance": "94%",
+            "odds": "1.34"
+        },
+        {
+            "event_id": "82013",
+            "league": "BRAZIL SERIE A",
+            "match_name": "Flamengo vs Palmeiras",
+            "market": "1X Double Chance",
+            "win_chance": "90%",
+            "odds": "1.36"
+        },
+        {
+            "event_id": "82008",
             "league": "SPAIN SEGUNDA",
             "match_name": "Levante vs Elche",
+            "market": "1X Double Chance",
+            "win_chance": "93%",
+            "odds": "1.38"
+        },
+        {
+            "event_id": "82019",
+            "league": "NETHERLANDS EERSTE DIVISIE",
+            "match_name": "Cambuur vs FC Emmen",
             "market": "Over 1.5 Goals",
-            "win_chance": "94%",
-            "odds": "1.43"
+            "win_chance": "88%",
+            "odds": "1.34"
+        },
+        {
+            "event_id": "82011",
+            "league": "NETHERLANDS EERSTE DIVISIE",
+            "match_name": "Jong Ajax vs Helmond Sport",
+            "market": "1X Double Chance",
+            "win_chance": "95%",
+            "odds": "1.35"
+        },
+        {
+            "event_id": "82010",
+            "league": "NIGERIAN NPFL",
+            "match_name": "Rangers Int vs Rivers United",
+            "market": "Over 1.5 Goals",
+            "win_chance": "97%",
+            "odds": "1.45"
         },
         {
             "event_id": "82026",
             "league": "NETHERLANDS EERSTE DIVISIE",
             "match_name": "Jong Ajax vs Helmond Sport",
             "market": "Over 1.5 Goals",
-            "win_chance": "96%",
-            "odds": "1.43"
-        },
-        {
-            "event_id": "82015",
-            "league": "TURKEY SUPER LIG",
-            "match_name": "Fenerbahce vs Galatasaray",
-            "market": "1X Double Chance",
-            "win_chance": "97%",
-            "odds": "1.42"
-        },
-        {
-            "event_id": "82002",
-            "league": "BRAZIL SERIE A",
-            "match_name": "Vasco da Gama vs Juventude",
-            "market": "Over 1.5 Goals",
-            "win_chance": "97%",
-            "odds": "1.39"
-        },
-        {
-            "event_id": "82030",
-            "league": "TURKEY SUPER LIG",
-            "match_name": "Fenerbahce vs Galatasaray",
-            "market": "Over 1.5 Goals",
             "win_chance": "94%",
-            "odds": "1.43"
-        },
-        {
-            "event_id": "82008",
-            "league": "NIGERIAN NPFL",
-            "match_name": "Enyimba vs Remo Stars",
-            "market": "Over 1.5 Goals",
-            "win_chance": "89%",
-            "odds": "1.44"
-        },
-        {
-            "event_id": "82027",
-            "league": "SAUDI PRO LEAGUE",
-            "match_name": "Al Hilal vs Al Nassr",
-            "market": "Over 1.5 Goals",
-            "win_chance": "95%",
-            "odds": "1.37"
-        },
-        {
-            "event_id": "82025",
-            "league": "ARGENTINA PRIMERA",
-            "match_name": "River Plate vs Boca Juniors",
-            "market": "Over 1.5 Goals",
-            "win_chance": "96%",
-            "odds": "1.42"
-        },
-        {
-            "event_id": "82013",
-            "league": "NIGERIAN NPFL",
-            "match_name": "Rangers Int vs Rivers United",
-            "market": "1X Double Chance",
-            "win_chance": "90%",
             "odds": "1.38"
         },
         {
-            "event_id": "82024",
-            "league": "FRANCE LIGUE 2",
-            "match_name": "Paris FC vs Grenoble",
+            "event_id": "82025",
+            "league": "NIGERIAN NPFL",
+            "match_name": "Rangers Int vs Rivers United",
             "market": "1X Double Chance",
             "win_chance": "95%",
-            "odds": "1.43"
-        },
-        {
-            "event_id": "82009",
-            "league": "FRANCE LIGUE 2",
-            "match_name": "Paris FC vs Grenoble",
-            "market": "1X Double Chance",
-            "win_chance": "94%",
-            "odds": "1.40"
-        },
-        {
-            "event_id": "82006",
-            "league": "SPAIN SEGUNDA",
-            "match_name": "Real Zaragoza vs Tenerife",
-            "market": "Over 1.5 Goals",
-            "win_chance": "98%",
-            "odds": "1.44"
-        },
-        {
-            "event_id": "82019",
-            "league": "BRAZIL SERIE A",
-            "match_name": "Flamengo vs Palmeiras",
-            "market": "1X Double Chance",
-            "win_chance": "96%",
-            "odds": "1.42"
+            "odds": "1.34"
         },
         {
             "event_id": "82003",
             "league": "ARGENTINA PRIMERA",
             "match_name": "Racing Club vs Platense",
-            "market": "1X Double Chance",
-            "win_chance": "97%",
-            "odds": "1.36"
-        },
-        {
-            "event_id": "82020",
-            "league": "FRANCE LIGUE 2",
-            "match_name": "Metz vs Lorient",
-            "market": "1X Double Chance",
-            "win_chance": "92%",
-            "odds": "1.34"
-        },
-        {
-            "event_id": "82005",
-            "league": "FRANCE LIGUE 2",
-            "match_name": "Metz vs Lorient",
-            "market": "Over 1.5 Goals",
-            "win_chance": "97%",
-            "odds": "1.39"
-        },
-        {
-            "event_id": "82011",
-            "league": "NETHERLANDS EERSTE DIVISIE",
-            "match_name": "Jong Ajax vs Helmond Sport",
             "market": "Over 1.5 Goals",
             "win_chance": "94%",
             "odds": "1.41"
         },
         {
-            "event_id": "82012",
+            "event_id": "82022",
+            "league": "BRAZIL SERIE A",
+            "match_name": "Vasco da Gama vs Juventude",
+            "market": "Over 1.5 Goals",
+            "win_chance": "98%",
+            "odds": "1.41"
+        },
+        {
+            "event_id": "82024",
             "league": "SAUDI PRO LEAGUE",
             "match_name": "Al Hilal vs Al Nassr",
             "market": "Over 1.5 Goals",
-            "win_chance": "97%",
+            "win_chance": "94%",
             "odds": "1.34"
         },
         {
-            "event_id": "82028",
+            "event_id": "82018",
+            "league": "ARGENTINA PRIMERA",
+            "match_name": "Racing Club vs Platense",
+            "market": "Over 1.5 Goals",
+            "win_chance": "92%",
+            "odds": "1.35"
+        },
+        {
+            "event_id": "82023",
+            "league": "SPAIN SEGUNDA",
+            "match_name": "Levante vs Elche",
+            "market": "Over 1.5 Goals",
+            "win_chance": "96%",
+            "odds": "1.36"
+        },
+        {
+            "event_id": "82027",
             "league": "NIGERIAN NPFL",
-            "match_name": "Rangers Int vs Rivers United",
+            "match_name": "Enyimba vs Remo Stars",
+            "market": "1X Double Chance",
+            "win_chance": "95%",
+            "odds": "1.34"
+        },
+        {
+            "event_id": "82002",
+            "league": "FRANCE LIGUE 2",
+            "match_name": "Metz vs Lorient",
+            "market": "Over 1.5 Goals",
+            "win_chance": "98%",
+            "odds": "1.38"
+        },
+        {
+            "event_id": "82005",
+            "league": "ARGENTINA PRIMERA",
+            "match_name": "River Plate vs Boca Juniors",
+            "market": "Over 1.5 Goals",
+            "win_chance": "96%",
+            "odds": "1.37"
+        },
+        {
+            "event_id": "82012",
+            "league": "NIGERIAN NPFL",
+            "match_name": "Enyimba vs Remo Stars",
+            "market": "1X Double Chance",
+            "win_chance": "97%",
+            "odds": "1.38"
+        },
+        {
+            "event_id": "82030",
+            "league": "USA MLS",
+            "match_name": "LA Galaxy vs Inter Miami",
             "market": "Over 1.5 Goals",
             "win_chance": "97%",
             "odds": "1.40"
         },
         {
-            "event_id": "82004",
-            "league": "BRAZIL SERIE A",
-            "match_name": "Flamengo vs Palmeiras",
+            "event_id": "82006",
+            "league": "FRANCE LIGUE 2",
+            "match_name": "Paris FC vs Grenoble",
             "market": "1X Double Chance",
-            "win_chance": "93%",
+            "win_chance": "92%",
+            "odds": "1.35"
+        },
+        {
+            "event_id": "82020",
+            "league": "ARGENTINA PRIMERA",
+            "match_name": "River Plate vs Boca Juniors",
+            "market": "1X Double Chance",
+            "win_chance": "90%",
+            "odds": "1.35"
+        },
+        {
+            "event_id": "82021",
+            "league": "FRANCE LIGUE 2",
+            "match_name": "Paris FC vs Grenoble",
+            "market": "Over 1.5 Goals",
+            "win_chance": "90%",
             "odds": "1.39"
         },
         {
             "event_id": "82017",
-            "league": "BRAZIL SERIE A",
-            "match_name": "Vasco da Gama vs Juventude",
+            "league": "FRANCE LIGUE 2",
+            "match_name": "Metz vs Lorient",
             "market": "1X Double Chance",
-            "win_chance": "97%",
-            "odds": "1.34"
+            "win_chance": "92%",
+            "odds": "1.42"
         }
     ]
 }
